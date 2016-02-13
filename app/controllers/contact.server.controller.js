@@ -5,3 +5,13 @@ exports.render = function(req, res) {
     }) 
     
 };
+
+//set the title of my new page for routes
+exports.contactForm = function(req, res) {
+    var name = req.body.name;
+ 
+   var html = 'Hello: ' + name + '.<br>' +
+             '<a href="/">Try again.</a>';
+  res.send(html);
+    
+};
