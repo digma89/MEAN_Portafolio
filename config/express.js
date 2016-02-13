@@ -25,6 +25,9 @@ module.exports = function(){
     //add the routes that my application use
     require('../app/routes/index.server.routes.js')(app);
     require('../app/routes/about.server.routes.js')(app);
+    require('../app/routes/projects.server.routes.js')(app);
+    require('../app/routes/services.server.routes.js')(app);
+    require('../app/routes/contact.server.routes.js')(app);
     
     app.use(express.static('public'));
     //app.use(express.static('./public'));
