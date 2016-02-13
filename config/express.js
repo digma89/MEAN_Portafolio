@@ -22,7 +22,9 @@ module.exports = function(){
     app.set('views', './app/views');
     app.set('view engine', 'ejs');
     
+    //add the routes that my application use
     require('../app/routes/index.server.routes.js')(app);
+    require('../app/routes/about.server.routes.js')(app);
     
     app.use(express.static('public'));
     //app.use(express.static('./public'));
