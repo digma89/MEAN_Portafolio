@@ -1,6 +1,9 @@
+/*--By Diego Rodriguez 2/13/16
+    Title: Personal portafolio */
+
 {
     "name": "portafolio",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "author": "Diego Rodriguez",
     "dependencies": {
         "express": "~4.8.8",

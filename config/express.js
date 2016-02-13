@@ -1,3 +1,6 @@
+/*--By Diego Rodriguez 2/13/16
+    Title: Personal portafolio */
+
 var express = require('express'),
     morgan = require('morgan'),
     compress = require('compression'),
